@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Landing Page</title>
+</head>
+<body>
+<!-- Website Header -->
+  <header class="header">
+    <div class="logo">
+      <h2>Al Moiz Food's</h2>
+    </div>
+    <nav id="navbar" class="navbar responsive-navbar">
+      <button class="close-tab" onclick="closeNavbar()" >Close</button>
+      <ul>
+        <li><a onclick="closeNavbar()" href="#home-section">Home</a></li>
+        <li><a onclick="closeNavbar()" href="#food-categories-section">Food Categories</a></li>
+        <li><a onclick="closeNavbar()" href="#about-section">About</a></li>
+        <li><a onclick="closeNavbar()" href="#contact-section">Contact</a></li>
+        <button class="menu-sign-in-btn">Sign In</button>
+      </ul>
+    </nav>
+    <div class="sign-in">
+      <button>Sign In</button>
+    </div>
+    <div class="navbar-menu">
+     <button onclick="toggleNavbar()" >Menu</button>
+    </div>
+  </header>
+<!-- Website Home Section -->
+  <section id="home-section" class="landing-page-home">
+    <div class="landing-page-home-content">
+      <h1>Delicious Food</h1>
+      <p>We Serve</p>
+      <h1 class="heading">
+        Healthy <br> & Fresh Food</h1>
+      <button>Order Now</button>
+    </div>
+
+    <div class="landing-page-home-img">
+      <img src="https://wallpapercave.com/wp/wp3138466.jpg" alt="food" class="landing-page-home-image">
+    </div>
+
+  </section>
+<!-- Website Food Category Section -->
+  <section id="food-categories-section" class="food-categories">
+    
+    <div class="food-categories-detail-box">
+      <h1>Food Categories</h1>
+    </div>
+    <div class="food-categories-detail-box">
+      <div class="recipe-box">
+        <div class="recipe-image"><img
+            src="https://th.bing.com/th/id/OIP.rl2d-TjB0K9Q3gpXMR1hBgHaHa?rs=1&pid=ImgDetMain" alt=""></div>
+        <div class="recipe-details">
+          <h1>Ice Cream</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quasi perspiciatis similique!</p>
+        </div>
+      </div>
+      <div class="recipe-box">
+        <div class="recipe-image"><img
+            src="https://th.bing.com/th/id/OIP.rl2d-TjB0K9Q3gpXMR1hBgHaHa?rs=1&pid=ImgDetMain" alt=""></div>
+        <div class="recipe-details">
+          <h1>Ice Cream</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quasi perspiciatis similique!</p>
+        </div>
+      </div>
+      <div class="recipe-box">
+        <div class="recipe-image"><img
+            src="https://th.bing.com/th/id/OIP.rl2d-TjB0K9Q3gpXMR1hBgHaHa?rs=1&pid=ImgDetMain" alt=""></div>
+        <div class="recipe-details">
+          <h1>Ice Cream</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quasi perspiciatis similique!</p>
+        </div>
+      </div>
+      <div class="recipe-box">
+        <div class="recipe-image"><img
+            src="https://th.bing.com/th/id/OIP.rl2d-TjB0K9Q3gpXMR1hBgHaHa?rs=1&pid=ImgDetMain" alt=""></div>
+        <div class="recipe-details">
+          <h1>Ice Cream</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quasi perspiciatis similique!</p>
+        </div>
+      </div>
+      <div class="recipe-box">
+        <div class="recipe-image"><img
+            src="https://th.bing.com/th/id/OIP.rl2d-TjB0K9Q3gpXMR1hBgHaHa?rs=1&pid=ImgDetMain" alt=""></div>
+        <div class="recipe-details">
+          <h1>Ice Cream</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quasi perspiciatis similique!</p>
+        </div>
+      </div>
+      <div class="recipe-box">
+        <div class="recipe-image"><img
+            src="https://th.bing.com/th/id/OIP.rl2d-TjB0K9Q3gpXMR1hBgHaHa?rs=1&pid=ImgDetMain" alt=""></div>
+        <div class="recipe-details">
+          <h1>Ice Cream</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quasi perspiciatis similique!</p>
+        </div>
+      </div>
+    </div>
+    <div class="food-categories-detail-box"><button class="explore-btn">Explore More</button></div>
+  </section>
+<!-- Website About Section -->
+  <section id="about-section" class="about-us-section">
+    <div class="about-head"><h1>About Us</h1></div>
+    <div  class="about-us-content" >
+    <div class="about-info">
+      <h2>Who We Are</h2>
+      <p>Welcome to our premium About Us page. We are committed to delivering excellence in everything we do.</p>
+      <p>Our team consists of passionate individuals dedicated to providing top-notch products/services and exceptional customer experience.</p>
+      <p>Feel free to explore our website and learn more about what we offer.</p>
+    </div>
+    <div class="image-container">
+      <img src="./company-image.jpeg" alt="Company Image">
+    </div>
+  </div>
+  </section>
+<!-- Website Contact Section -->
+  <section id="contact-section" class="contact-us">
+    <div class="contact-us-detail-box">
+      <h1>Contact Us</h1>
+    </div>
+    <div class="contact-us-detail-box">
+      <form class="contact-us-form" id="contact-form">
+        <input value="" id="name" type="text" placeholder="Name" >
+        <input value="" id="email" type="email" placeholder="Email" >
+        <textarea id="textarea" required name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+<!-- Website Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>Al Moiz Food's</h2>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#home-section">Home</a></li>
+          <li><a href="#food-categories-section">Food Categories</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <ul>
+          <li><a href="#"><img src="https://img.icons8.com/ios/50/000000/facebook-new.png" alt="facebook"></a></li>
+          <li><a href="#"><img src="https://img.icons8.com/ios/50/000000/instagram-new.png" alt="instagram"></a></li>
+          <li><a href="#"><img src="https://img.icons8.com/ios/50/000000/twitter.png" alt="twitter"></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+   <!-- Notification Error -->
+  <div id="notification-id" class="notification">
+    <div class="notification-content">
+      <h1>Notification</h1>
+      <p>Thank you for your message. We will contact you soon.</p>
+      <button onclick="closeNotification()" class="close-notification">Close</button>
+    </div>
+
+  </div>
+  <!-- Notification For Errors -->
+  <div id="error-notification-id" class="notification">
+    <div class="notification-content">
+      <h1>Error</h1>
+      <p>Enter Valide and Correct Fileds ..!</p>
+      <button onclick="closeErrorNotification()" class="close-notification">Close</button>
+    </div>
+  </div>
+  <script src="./page.js"></script>
+</body>
+</html>
