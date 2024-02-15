@@ -34,14 +34,6 @@ git clone https://github.com/abdulmoiz01001/landing-page.git
 
 3. **Explore the Website**: Navigate through different pages using the navigation menu and interact with the various elements on each page.
 
-## Contributions
-
-Contributions to this project are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
 - This project was inspired by the need for a visually appealing and user-friendly food website landing page.
@@ -49,6 +41,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or support, please contact [Your Name] at [your-email@example.com].
+For any inquiries or support, please contact Abdul Moiz at profession.ai01001@hotmail.com.
 
 Thank you for visiting the Food Website Landing Page repository! We hope you enjoy exploring the website.
